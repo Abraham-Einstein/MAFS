@@ -1,5 +1,6 @@
 # MAFS: Masked Autoencoder for Infrared-Visible Image Fusion and Semantic Segmentation
 [Liying Wang](https://blog.csdn.net/weixin_46202235), [Xiaoli Zhang<sup>*</sup>](https://zhangxiaolijlu.github.io/),  [Chuanmin Jia<sup>*</sup>](https://github.com/Codersadis), and [Siwei Ma](https://idm.pku.edu.cn/en/info/1009/1017.htm)
+
 -[*[ArXiv]*](https://www.arxiv.org/abs/2509.11817)
 
 ## 🌟 Update
@@ -9,6 +10,7 @@
 ## 📚 Abstract
 Infrared-visible image fusion methods aim at generating fused images with good visual quality and also facilitate the performance of high-level tasks. Indeed, existing semantic-driven methods have considered semantic information injection for downstream applications. However, none of them investigates the potential for reciprocal promotion between pixel-wise image fusion and cross-modal feature fusion perception tasks from a macroscopic task-level perspective. To address this limitation, we propose a unified network for image fusion and semantic segmentation. MAFS is a parallel structure, containing a fusion sub-network and a segmentation sub-network. On the one hand, we devise a heterogeneous feature fusion strategy to enhance semantic-aware capabilities for image fusion. On the other hand, by cascading the fusion sub-network and a segmentation backbone, segmentation-related knowledge is transferred to promote feature-level fusion-based segmentation. Within the framework, we design a novel multi-stage Transformer decoder to aggregate
 fine-grained multi-scale fused features efficiently. Additionally, a dynamic factor based on the max-min fairness allocation principle is introduced to generate adaptive weights of two tasks and guarantee smooth training in a multi-task manner.
+
 ### 🚀 Training
 **1. Virtual Environment**
 ```
@@ -20,6 +22,9 @@ conda activate SMFNet
 pip install -r requirements.txt
 ```
 Please note: the provided `requirements.txt` was generated from the author's environment and may depend on specific hardware/software settings. Ensure compatibility with your own machine before installation.
+
+**2. Training Dataset**
+
 ## 📝 Citation
 
 
