@@ -15,6 +15,7 @@ fine-grained multi-scale fused features efficiently. Additionally, a dynamic fac
 </div>
 
 ### 🌻Test
+Test and training parts will be open soon.
 
 ### 🚀 Training
 **1. Virtual Environment**
