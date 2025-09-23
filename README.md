@@ -19,7 +19,7 @@ fine-grained multi-scale fused features efficiently. Additionally, a dynamic fac
 ```
 # create virtual environment
 conda create -n MAFS python=3.8.0
-conda activate SMFNet
+conda activate MAFS
 # select the pytorch-gpu version yourself
 # install MAFS requirements
 pip install -r requirements.txt
