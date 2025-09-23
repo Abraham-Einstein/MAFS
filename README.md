@@ -27,6 +27,8 @@ pip install -r requirements.txt
 Please note: the provided `requirements.txt` was generated from the author's environment and may depend on specific hardware/software settings. Ensure compatibility with your own machine before installation.
 
 **2. Training Dataset**
+The Training and test datasets are strictly consistent with the original dataset split. For more details, see the relevant repositories: [MFNet](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/), [PST900](https://github.com/ShreyasSkandanS/pst900_thermal_rgb), and [FMB](https://github.com/JinyuanLiu-CV/SegMiF) 
+MAFS's checkpoints can be downloaded from this [link](https://pan.baidu.com/s/1EaLbqHdbWI7-sFJYFKXRFQ?pwd=mafs) Code: mafs.
 
 ## 📝 Citation
 
@@ -37,5 +39,5 @@ If you have any corresponding questions, please feel free to contact [Liying Wan
 
 
 ## 💡Acknowledgements
-Our code is built based on [PSFusion](https://github.com/Linfeng-Tang/PSFusion) and [DeFusion](https://github.com/erfect2020/DecompositionForFusion). [SegMiF](https://github.com/JinyuanLiu-CV/SegMiF) and [CDDFuse](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) primarily inspire this work. Please also follow their licenses. If you are inspired by [MRFS](https://github.com/HaoZhang1018/MRFS), please also cite their paper. We also sincerely thank [Xihang Hu's](https://github.com/hu-xh) valuable suggestion during the experimental implementation. If you're interested in the field of salient object detection, please refer to [hu-xh](https://github.com/hu-xh). Thank you all for your attention.
+Our code is built based on [PSFusion](https://github.com/Linfeng-Tang/PSFusion) and [DeFusion](https://github.com/erfect2020/DecompositionForFusion). [SegMiF](https://github.com/JinyuanLiu-CV/SegMiF) and [CDDFuse](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) primarily inspire this work. Please also follow their licenses. If you are inspired by [MRFS](https://github.com/HaoZhang1018/MRFS), please also cite their paper. We sincerely thank Dr [Xihang Hu's](https://github.com/hu-xh) valuable suggestion during the experimental implementation. If you're interested in the field of salient object detection or camouflaged object detection, please refer to [hu-xh](https://github.com/hu-xh). Thank you all for your attention.
 
