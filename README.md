@@ -17,7 +17,8 @@ fine-grained multi-scale fused features efficiently. Additionally, a dynamic fac
 </div>
 
 ### 🌻Test
-Test and training parts will be open soon.
+Please run fusion.py and segmentation_test.py.
+And the training part will be open soon.
 
 ### 🚀 Training
 **1. Virtual Environment**
