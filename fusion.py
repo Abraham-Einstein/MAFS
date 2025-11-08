@@ -5,8 +5,6 @@ from options import *
 from saver import resume, save_img_single
 from tqdm import tqdm
 from config import config
-from fvcore.nn import FlopCountAnalysis, parameter_count
-from thop import profile
 # 暂时屏蔽输出
 import sys
 import os
@@ -60,3 +58,4 @@ def multi_task_tester(test_loader, multi_task_model, device, opts):
 
 if __name__ == '__main__':
     main()
+
