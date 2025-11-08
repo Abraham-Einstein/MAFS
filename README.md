@@ -2,6 +2,7 @@
 [Liying Wang](https://blog.csdn.net/weixin_46202235), [Xiaoli Zhang<sup>*</sup>](https://zhangxiaolijlu.github.io/),  [Chuanmin Jia<sup>*</sup>](https://github.com/Codersadis), and [Siwei Ma](https://idm.pku.edu.cn/en/info/1009/1017.htm)
 
 -[*[ArXiv]*](https://www.arxiv.org/abs/2509.11817)
+
 -[*[Paper]*](https://ieeexplore.ieee.org/document/11178208)
 
 ## 🌟 Update
@@ -37,6 +38,7 @@ Besides, MAFS's checkpoints can be downloaded from this [link](https://pan.baidu
 
 ## 📝 Citation
 
+```
 @article{wang2025mafs,
   title={MAFS: Masked Autoencoder for Infrared-Visible Image Fusion and Semantic Segmentation},
   author={Wang, Liying and Zhang, Xiaoli and Jia, Chuanmin and Ma, Siwei},
@@ -44,6 +46,7 @@ Besides, MAFS's checkpoints can be downloaded from this [link](https://pan.baidu
   year={2025},
   publisher={IEEE}
 }
+```
 
 ## 😊 Any question
 
