@@ -36,7 +36,7 @@ Please note: the provided `requirements.txt` was generated from our environment 
 **2. Training Dataset**
 
 The Training and test datasets are strictly consistent with the original dataset split. For more details, see the relevant repositories: [MFNet](https://www.mi.t.u-tokyo.ac.jp/static/projects/mil_multispectral/), [PST900](https://github.com/ShreyasSkandanS/pst900_thermal_rgb), and [FMB](https://github.com/JinyuanLiu-CV/SegMiF).
-Besides, MAFS's checkpoints can be downloaded from this [link](https://pan.baidu.com/s/1EaLbqHdbWI7-sFJYFKXRFQ?pwd=mafs). Code: mafs.
+Besides, MAFS's checkpoints can be downloaded from this [link](https://pan.baidu.com/s/1EaLbqHdbWI7-sFJYFKXRFQ?pwd=mafs). Code: mafs. The additional choice is [Google Drive](https://drive.google.com/drive/folders/1p6gougnEDwcHnmSDGNY-iVkjT-xKggl_?usp=sharing).
 
 ## 📝 Citation
 
